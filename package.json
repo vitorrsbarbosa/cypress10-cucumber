@@ -1,0 +1,19 @@
+{
+  "name": "projeto-cypress-v10-cucumber",
+  "version": "1.0.0",
+  "description": "teste de integração Cypress versão ^10 + Cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "author": "Vitor Barbosa",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^10.11.0"
+  },
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^14.0.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5"
+  }
+}
+
